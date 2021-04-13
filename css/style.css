@@ -1,0 +1,220 @@
+* {
+font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    position: sticky;
+    top:0;
+    height: 51px;
+    background-color: #212121;
+    z-index: 1;  
+    
+}
+
+header{
+position: relative;
+}
+
+.container{
+    width: 1140px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu .menu_item{
+    border-right:2px dotted black;
+    padding-right:28px;
+}
+
+.subheader{
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0,0,0,.6);
+}
+
+.subheader .subheader_logo{
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_oficial{
+    margin-top: 6px;
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.subheader .subheader_call{
+    margin-top: 19px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.subheader .subheader_phone{
+    display: block;
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 15px;
+}
+
+.subheader .subheader_btn{
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+.promo{
+    min-height: 800px;
+    background: url('../img/background_head.jpg')center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+.promo .promo_header{
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+.promo .promo_subheader{
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo .promo_descr{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 23px;
+}
+
+.promo .promo_btn{
+    display: block;
+    margin: 0 auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 118px;
+}
+
+.advantages{
+    min-height: 900px;
+}
+
+.advantages .heading_adv{
+    display: block;
+    padding: 6px 11px;
+    margin: 71px auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.advantages .adv_reasons{
+    color: #222222;
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 0;
+    margin-top: 38px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.advantages .img_reasons{
+    width: 113px;
+    height: 113px;
+    border:none;
+    border-radius: 100%;
+    background-color: #1eacc7;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    margin-right: 26px;
+    
+}
+
+
+
+.advantages .text_reasons{
+    color: #202020;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    
+    
+    
+}
+
+.advantages span{
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.advantages .reason_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.advantages .reason_block .reason_descr{
+    width: 343px;
+}
+
